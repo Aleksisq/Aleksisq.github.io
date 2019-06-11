@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: aleksisq.github.io
+Token: 0a90d8a80772a3fe48364c5327b2cfc53f40b2f121b53a3e3ef3a0c6ca8128e3
