@@ -1,0 +1,906 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+@charset "UTF-8";
+
+
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+/******************************************        **************************************************************/
+/****************************************** SĀKUMS **************************************************************/
+/******************************************        **************************************************************/
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+body {
+	background-color: #F2F3F4;
+	font-family: "Didact Gothic", tahoma, verdana, arial, sans-serif;
+	margin: 0;
+	padding: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
+.nav{
+    overflow: hidden;
+    position: absolute;
+	padding-bottom: 14.5px;
+	background-color: #F8F9F9;
+	width: 100%;
+	height: 7%;
+    background:transparent url(geometry.png) repeat top; 
+    border: none;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.05);
+    outline: none;
+}
+
+
+.nav ul{
+	padding-right: 12%;
+	padding-top: 21.5px;
+
+}
+
+.nav li{
+	display: inline;
+	float: left;
+	text-align: center;
+	padding-left: 9%;
+}
+.nav li a{
+    text-decoration: none;
+	color: #34495E;
+	font-size: 19px;
+/**	transition: 0.2s;**/
+	font-weight: bold;
+}
+
+.nav li a:hover{
+	color: #A6ACAF;
+}
+
+.logo{
+	height: 50px;
+	padding-top: 8px;
+	margin-left: 150px;
+	position: absolute;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.logo2{
+	height: 200px;
+	margin-left: 67%;
+	margin-top: 20.5%;
+	position: absolute;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+p.vsklogo2 {
+	margin-left: 68.5%;
+	margin-top: 33%;
+    text-decoration: none;
+	position: absolute;
+	color: black;
+	font-size: 26px;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+p.vsklogo {
+	padding-left: 15%;
+	padding-top: 22px;
+    text-decoration: none;
+	position: absolute;
+	color: black;
+	font-size: 19px;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.abkont{
+	color: #242760;
+	text-decoration: none;
+	
+}
+
+.mid {
+	background-color: #F8F9F9;
+	margin-top: 8%;
+	margin-left: 8%;
+	margin-right: auto;
+	height: 800px;
+	width: 83%;
+	position: absolute;
+    border: none;
+    padding: 0.5em;
+/**    box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);**/
+	box-shadow: 0px 1px 1px 2px rgba(0,0,0,0.1);
+    outline: none;
+    background:transparent url(geometry.png) repeat top; 
+}
+
+
+/** Social Button CSS **/
+
+.share{
+	margin-top: 10%;
+	margin-left: 75px;
+	position: absolute;
+}
+
+
+.fa{
+	height: 25px;
+	opacity: 0.5;
+}
+
+.gp{
+	height: 25px;
+	opacity: 0.5;
+}
+
+.tw{
+	height: 25px;
+	opacity: 0.5;
+	
+}
+
+.share-btn    { background: #FFFFFF; } /**or F2F3F4 **/
+
+.em{
+	height: 25px;
+	opacity: 0.5;
+}
+
+.share-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em;
+    width: 4em;
+/**    box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);**/
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+    outline: none;
+    text-align: center;
+}
+
+.share-btn:hover {
+  color: #eeeeee;
+  opacity: 0.8;
+}
+
+.share-btn:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+  color: #e2e2e2;
+  outline: none;
+}
+/**
+.share-btn.twitter     { background: #55acee; }
+.share-btn.google-plus { background: #dd4b39; }
+.share-btn.facebook    { background: #3B5998; }
+.share-btn.stumbleupon { background: #EB4823; }
+.share-btn.reddit      { background: #ff5700; }
+.share-btn.linkedin    { background: #4875B4; }
+.share-btn.email       { background: #444444; }**/
+
+
+h1{
+	font-size: 33px;
+	margin-left: 12%;
+	margin-top: 15%;
+	position: absolute;
+	color: #34495E;
+
+}
+
+p.vissskolai {
+	margin-left: 12%;
+	margin-top: 19%;
+	font-size: 25px;
+	position: absolute;
+	color: #34495E;
+	width: 675px;
+}
+
+p.about {
+	margin-left: 30%;
+	margin-top: 30%;
+	position: absolute;
+	font-size: 19px;
+	width: 750px;
+}
+
+.build {
+	height: 385px;
+	position: absolute;
+	margin-left: 925px;
+	margin-top: 30%;
+    border: none;
+    padding: 0.2em;
+	box-shadow: 0px 1px 1px 3px rgba(0,0,0,0.1);
+    outline: none;
+}
+
+.end {
+	background-color: #E5E8E8;
+	margin-top: 1000px;
+	margin-right: auto;
+	height: 180px;
+	width: 100%;
+	position: absolute;
+}
+
+p.des {
+	margin-top: 1025px;
+	margin-left: 8%;
+	color: #A6ACAF;
+	font-size: 19px;
+	font-weight: bold;
+	position: absolute;
+}
+
+
+p.cont {
+	margin-top: 1025px;
+	margin-left: 22%;
+	color: #A6ACAF;
+	font-size: 19px;
+	font-weight: bold;
+	position: absolute;
+}
+p.cont2 {
+	margin-top: 1055px;
+	margin-left: 22%;
+	color: #424949;
+	font-size: 19px;
+	font-weight: bold;
+	position: absolute;
+}
+
+p.socialize {
+	margin-top: 1025px;
+	margin-left: 42%;
+	color: #A6ACAF;
+	font-size: 19px;
+	font-weight: bold;
+	position: absolute;
+}
+
+p.socialize2 {
+	margin-top: 1055px;
+	margin-left: 42%;
+	color: #424949;
+	font-size: 19px;
+	font-weight: bold;
+	position: absolute;
+}
+
+p.section {
+	margin-top: 1025px;
+	margin-left: 32%;
+	color: #A6ACAF;
+	font-size: 19px;
+	font-weight: bold;
+	position: absolute;
+}
+
+p.section2 {
+	margin-top: 1055px;
+	margin-left: 32%;
+	color: #424949;
+	font-size: 19px;
+	font-weight: bold;
+	position: absolute;
+}
+
+
+
+.bottomselect{
+	text-decoration:none;
+	color: #424949;
+}
+
+.bottomselect:hover {
+	opacity: 0.9;
+}
+
+
+.laiks{
+	margin-top: 1025px;
+	margin-left: 83%;
+	color: #A6ACAF;
+	font-size: 19px;
+	font-weight: bold;
+	position: absolute;
+}
+
+
+.clock {
+    position: absolute;
+    margin-top: 1065px;
+    left: 87.1%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #424949;
+    font-size: 28px;
+    font-family: "Century Gothic", tahoma, verdana, arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+/******************************************         *************************************************************/
+/***************************************** MATERIĀLI ************************************************************/
+/******************************************         *************************************************************/
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+
+.math2{
+	position: absolute;
+	height: 40%;
+	margin-left: 12%;
+	margin-top: 16%;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	border-style: groove;
+	border-color: white;
+	border-width: 1px;
+}
+
+.math2:hover{
+	position: absolute;
+	height: 40%;
+	margin-left: 12%;
+	margin-top: 16%;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	border-style: groove;
+	border-color: white;
+	border-width: 1px;
+	opacity: 0.5;
+	transition: 0.2s;
+	
+}
+
+p.visc1 {
+	position: absolute;
+	top: 75%;
+	font-size: 18px;
+	left: 14.5%;
+}
+
+
+.fizika2{
+	position: absolute;
+	height: 40%;
+	margin-left: 30%;
+	margin-top: 16%;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	border-style: groove;
+	border-color: white;
+	border-width: 1px;
+}
+
+.fizika2:hover{
+	position: absolute;
+	height: 40%;
+	margin-left: 30%;
+	margin-top: 16%;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	border-style: groove;
+	border-color: white;
+	border-width: 1px;
+	opacity: 0.5;
+	transition: 0.2s;
+	
+}
+
+p.lu1 {
+	position: absolute;
+	top: 75%;
+	font-size: 18px;
+	left: 33.5%;
+}
+
+
+
+
+
+.programpamati2{
+	position: absolute;
+	height: 40%;
+	margin-left: 48%;
+	margin-top: 16%;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	border-style: groove;
+	border-color: white;
+	border-width: 1px;
+}
+
+.programpamati2:hover{
+	position: absolute;
+	height: 40%;
+	margin-left: 48%;
+	margin-top: 16%;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	border-style: groove;
+	border-color: white;
+	border-width: 1px;
+	opacity: 0.5;
+	transition: 0.2s;
+	
+}
+
+p.pp1 {
+	position: absolute;
+	top: 75%;
+	font-size: 18px;
+	left: 50.5%;
+}
+
+
+.lv2{
+	position: absolute;
+	height: 40%;
+	margin-left: 66%;
+	margin-top: 16%;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	border-style: groove;
+	border-color: white;
+	border-width: 1px;
+}
+
+.lv2:hover{
+	position: absolute;
+	height: 40%;
+	margin-left: 66%;
+	margin-top: 16%;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	border-style: groove;
+	border-color: white;
+	border-width: 1px;
+	opacity: 0.5;
+	transition: 0.2s;
+	
+}
+
+p.lv1 {
+	position: absolute;
+	top: 75%;
+	left: 69%;
+	font-size: 18px;
+}
+
+
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+/******************************************         *************************************************************/
+/******************************************** RĪKI ************************************************************/
+/******************************************         *************************************************************/
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+
+p.garums{
+	position: absolute;
+	margin-top: 15%;
+	font-size: 24px;
+	margin-left: 12%;
+
+}
+
+.hr{
+	position: absolute;
+	width:17.5%;
+	color: black;
+	margin-left: 12.1%;
+	margin-top: 17.5%;
+}
+
+.converter {
+	font-family: "Didact Gothic", tahoma, verdana, arial, sans-serif;
+	position: absolute;
+	font-size: 20px;
+	margin-top: 19%;
+	margin-left: 12%;
+	color: black;
+	}
+	
+
+
+.lengthform input{
+	margin-left: 0px;
+	margin-top: 5px;
+	padding-left: 4px;
+	font-family: "Didact Gothic", tahoma, verdana, arial, sans-serif;
+}
+
+
+.metri2{
+	margin-top: 10px;
+}
+
+input.metri{
+	margin-top: 15px;
+	position: absolute;
+}
+
+.collas2{
+	margin-top: 23px;
+}
+
+input.collas{
+	margin-top: 28px;
+	position: absolute;
+}
+
+.pedas2{
+	margin-top: 41px;
+}
+
+input.pedas{
+	margin-top: 46px;
+	position: absolute;
+}
+
+label {
+	position: absolute;
+}
+
+input.button {
+	height: 37px;
+	text-decoration: none;
+	font-family: "Didact Gothic", tahoma, verdana, arial, sans-serif;
+	position: absolute;
+	font-size: 16px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+p.svars {
+	position: absolute;
+	margin-top: 15%;
+	font-size: 24px;
+	margin-left: 36%;
+
+}
+
+.hr3{
+	position: absolute;
+	width:15.5%;
+	color: black;
+	margin-left: 36%;
+	margin-top: 17.5%;
+}
+
+.converter3 {
+	font-family: "Didact Gothic", tahoma, verdana, arial, sans-serif;
+	position: absolute;
+	font-size: 20px;
+	margin-top: 19%;
+	margin-left: 36%;
+	color: black;
+	}
+	
+
+
+.svarform input{
+	margin-left: 0px;
+	margin-top: 5px;
+	padding-left: 4px;
+	font-family: "Didact Gothic", tahoma, verdana, arial, sans-serif;
+}
+
+
+.kg2{
+	margin-top: 10px;
+}
+
+input.kg{
+	margin-top: 15px;
+	position: absolute;
+}
+
+.marc2{
+	margin-top: 23px;
+}
+
+input.marc{
+	margin-top: 28px;
+	position: absolute;
+}
+
+.unc2{
+	margin-top: 41px;
+}
+
+input.unc{
+	margin-top: 46px;
+	position: absolute;
+}
+
+input.button3 {
+	height: 37px;
+	text-decoration: none;
+	font-family: "Didact Gothic", tahoma, verdana, arial, sans-serif;
+	position: absolute;
+	font-size: 16px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+p.temp{
+	position: absolute;
+	margin-top: 15%;
+	font-size: 24px;
+	margin-left: 58%;
+
+}
+
+.hr2{
+	position: absolute;
+	width: 21.5%;
+	color: black;
+	margin-left: 58.1%;
+	margin-top: 17.5%;
+}
+
+.converter2 {
+	font-family: "Didact Gothic", tahoma, verdana, arial, sans-serif;
+	position: absolute;
+	font-size: 20px;
+	margin-top: 19%;
+	margin-left: 58%;
+	color: black;
+	}
+	
+
+
+.tempform input{
+	margin-left: 0px;
+	margin-top: 5px;
+	padding-left: 4px;
+	font-family: "Didact Gothic", tahoma, verdana, arial, sans-serif;
+}
+
+
+.far2{
+	margin-top: 10px;
+}
+
+input.far{
+	margin-top: 15px;
+	position: absolute;
+}
+
+.kel2{
+	margin-top: 23px;
+}
+
+input.kel{
+	margin-top: 28px;
+	position: absolute;
+}
+
+input.button2 {
+	height: 37px;
+	text-decoration: none;
+	font-family: "Didact Gothic", tahoma, verdana, arial, sans-serif;
+	position: absolute;
+	font-size: 16px;
+	margin-top: 110px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+p.gradrad{
+	position: absolute;
+	margin-top: 43%;
+	font-size: 24px;
+	margin-left: 12%;
+
+}
+
+.hr4{
+	position: absolute;
+	width:16%;
+	color: black;
+	margin-left: 12.1%;
+	margin-top: 45.5%;
+}
+
+.converter4 {
+	font-family: "Didact Gothic", tahoma, verdana, arial, sans-serif;
+	position: absolute;
+	font-size: 20px;
+	margin-top: 47%;
+	margin-left: 12%;
+	color: black;
+	}
+	
+
+
+.convert4 input{
+	margin-left: 0px;
+	margin-top: 5px;
+	padding-left: 4px;
+	font-family: "Didact Gothic", tahoma, verdana, arial, sans-serif;
+}
+
+
+.rad2{
+	margin-top: 10px;
+}
+
+input.rad{
+	margin-top: 15px;
+	position: absolute;
+}
+
+label {
+	position: absolute;
+}
+
+input.button4 {
+	height: 37px;
+	text-decoration: none;
+	font-family: "Didact Gothic", tahoma, verdana, arial, sans-serif;
+	position: absolute;
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+/**kontakti**/
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+	font-family: "Didact Gothic", tahoma, verdana, arial, sans-serif;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 24px; /* Add a top margin */
+  margin-bottom: 5px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	font-family: "Didact Gothic", tahoma, verdana, arial, sans-serif;
+  background-color: #E5E8E8;
+  color: #424949;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  opacity: 0.5;
+}
+
+/* Add a background color and some padding around the form */
+.container4 {
+  position:absolute;
+  margin-left: 15%;
+  margin-top: 14%;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.vards {
+	margin-top: 0px;
+	font-size: 18px;
+}
+
+.uzvards {
+	font-size: 18px;	
+}
+
+.epasts {
+	font-size: 18px;	
+}
+
+.temats {
+	font-size: 18px;	
+}
+
+
+
+
+
+

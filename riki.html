@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="home.css">
+    <title>Rīki</title>
+    <link rel="icon" href="logoo.png">
+	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+<script language="JavaScript">
+
+function cmConverter(){
+document.converter.inch.value = document.converter.cm.value / 2.54
+document.converter.feet.value = document.converter.cm.value / 30.48
+document.converter.metri.value = document.converter.cm.value / 100
+}
+function metriConverter(){
+document.converter.cm.value = document.converter.metri.value * 100
+document.converter.inch.value = document.converter.metri.value * 39.37
+document.converter.feet.value = document.converter.metri.value * 3.28
+}
+function inchConverter(){
+document.converter.cm.value = document.converter.inch.value * 2.54
+document.converter.feet.value = document.converter.inch.value / 12
+document.converter.metri.value = document.converter.inch.value / 39.37
+}
+function feetConverter(){
+document.converter.cm.value = document.converter.feet.value * 30.48
+document.converter.inch.value = document.converter.feet.value * 12
+document.converter.metri.value = document.converter.feet.value / 3.28
+}
+
+<!--TEMPERATURE-->
+
+function celConverter(){
+document.converterr.far.value = (document.converterr.cel.value * 9 / 5) + 32
+document.converterr.kel.value = (document.converterr.cel.value *1) + 273.15
+}
+function farConverter(){
+document.converterr.cel.value = (document.converterr.far.value - 32) * 5 / 9
+document.converterr.kel.value = ((document.converterr.far.value - 32) * (5 / 9)) + 273.15
+}
+function kelConverter(){
+document.converterr.cel.value = (document.converterr.kel.value * 1) - 273.15
+document.converterr.far.value = ((document.converterr.kel.value - 273.15) * (9/5)) + 32
+}
+
+<!--Svars-->
+
+function gConverter(){
+document.converter3.kg.value = document.converter3.g.value / 1000
+document.converter3.marc.value = document.converter3.g.value / 453.59
+document.converter3.unc.value = document.converter3.g.value / 28.35
+}
+function kgConverter(){
+document.converter3.g.value = document.converter3.kg.value * 1000
+document.converter3.marc.value = document.converter3.kg.value * 2.21
+document.converter3.unc.value = document.converter3.kg.value * 35.27
+}
+function poundConverter(){
+document.converter3.g.value = document.converter3.marc.value * 453.59
+document.converter3.kg.value = document.converter3.marc.value / 2.21
+document.converter3.unc.value = document.converter3.marc.value * 16
+}
+function ounceConverter(){
+document.converter3.g.value = document.converter3.unc.value * 28.35
+document.converter3.kg.value = document.converter3.unc.value / 35.27
+document.converter3.marc.value = document.converter3.unc.value / 16
+}
+
+<!--degtorad-->
+
+function degConverter(){
+document.converter4.rad.value = document.converter4.deg.value * 3.14 / 180
+}
+function radConverter(){
+document.converter4.deg.value = document.converter4.rad.value * 180 / 3.14
+}
+</script>  
+  
+  
+  
+  
+  
+</head>
+
+<body>
+
+
+
+<div class="nav">
+<ul>
+<li style="float:right"><a href="kontakti.html">Kontakti</a></li>
+<li style="float:right"><a class="active" href="riki.html">Rīki</a></li>
+<li style="float:right"><a href="materials.html">Materiāli</a></li>
+<li style="float:right"><a href="index.html">Sākums</a></li>
+</ul>
+</div>
+
+
+
+<img class="logo" src="logoo.png"></a>
+<p class="vsklogo">Viss Mācībām</p>
+
+<div class="mid"></div>
+
+
+
+<!-- Social Button HTML -->
+<div class="share">
+<!-- Twitter -->
+<a href="http://twitter.com/share?url=&text=Iečeko šo jauno mājaslapu!" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i><img class="tw" src="twitter-brands.svg">
+</a>
+
+<!-- Google Plus -->
+<a href="https://plus.google.com/share?url=<BTN>" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i><img class="gp" src="google-plus-g-brands.svg">
+</a>
+
+<!-- Facebook -->
+<a href="http://www.facebook.com/sharer/sharer.php?u=<URL>" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i><img class="fa" src="facebook-f-brands.svg">
+</a>
+<!-- Email -->
+<a href="mailto:?subject=<SUBJECT&body=<BODY>" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i><img class="em" src="envelope-regular.svg">
+</a>
+
+</div>
+
+<p class="garums">Garuma konvertēšana:</p>
+<hr class="hr">
+<!-- converter #1 -->
+<div class="converter">
+<form class="lengthform" name="converter">
+<label class="cm2" for="centimetri">Centimetri:</label><br><input onclick="this.select()" class="centimetri" placeholder="centimetri" type="number" name="cm" onChange="cmConverter()"><br />
+<label class="metri2" for="metri">Metri:</label><br><input onclick="this.select()" class="metri" placeholder="metri" type="number" name="metri" onChange="metriConverter()"><br />
+<label class="collas2" for="collas">Collas:</label><br><input onclick="this.select()" class="collas" placeholder="collas" type="number" name="inch" onChange="inchConverter()"><br />
+<label class="pedas2" for="pedas">Pēdas:</label><br><input onclick="this.select()" class="pedas" placeholder="pēdas" type="number" name="feet" onChange="feetConverter()"><br />
+<input type="button" class="button" value="Konvertēt!" />
+</form>
+</div>
+<!-- converter #1 END -->
+
+
+
+<p class="temp">Temperatūras konvertēšana:</p>
+<hr class="hr2">
+
+<!-- converter #2 -->
+
+<div class="converter2">
+<form class="tempform" name="converterr">
+<label class="cel2" for="centimetri">°Celsija:</label><br><input onclick="this.select()" class="cel" placeholder="°Celsija" type="number" name="cel" onChange="celConverter()"><br />
+<label class="far2" for="farenheiti">°Fārenheita:</label><br><input onclick="this.select()" class="far" placeholder="°Fārenheita" type="number" name="far" onChange="farConverter()"><br />
+<label class="kel2" for="kelvini">Kelvini:</label><br><input oninput="validity.valid||(value='');" min="0" onclick="this.select()" class="kel" placeholder="kelvini" type="number" name="kel" onChange="kelConverter()"><br />
+<input type="button" class="button2" value="Konvertēt!" />
+</form>
+</div>
+<!-- converter #2 END -->
+
+
+
+
+<p class="svars">Svara konvertēšana:</p>
+<hr class="hr3">
+
+<!-- converter #3 -->
+
+<div class="converter3">
+<form class="svarform" name="converter3">
+<label class="g2" for="grami">Grami:</label><br><input onclick="this.select()" class="g" placeholder="grami" type="number" name="g" onChange="gConverter()"><br />
+<label class="kg2" for="kg">Kilogrami:</label><br><input onclick="this.select()" class="kg" placeholder="kg" type="number" name="kg" onChange="kgConverter()"><br />
+<label class="marc2" for="marcinas">Mārciņas:</label><br><input onclick="this.select()" class="marc" placeholder="mārciņas" type="number" name="marc" onChange="poundConverter()"><br />
+<label class="unc2" for="unces">Unces:</label><br><input onclick="this.select()" class="unc" placeholder="unces" type="number" name="unc" onChange="ounceConverter()"><br />
+<input type="button" class="button3" value="Konvertēt!" />
+</form>
+</div>
+<!-- converter #3 END -->
+
+
+<p class="gradrad">Grādu konvertēšana:</p>
+<hr class="hr4">
+
+<!-- converter #4 -->
+
+<div class="converter4">
+<form class="convert4" name="converter4">
+<label class="deg2" for="deg">Grādi:</label><br><input onclick="this.select()" class="deg" placeholder="grādi" type="number" name="deg" onChange="degConverter()"><br />
+<label class="rad2" for="rad">Radiāni:</label><br><input onclick="this.select()" class="rad" placeholder="radiāni" type="number" name="rad" onChange="radConverter()"><br />
+<input type="button" class="button4" value="Konvertēt!" />
+</form>
+</div>
+<!-- converter #4 END -->
+
+
+
+<div class="end"></div>
+
+<p class="des">Veidotājs:<br>Aleksis M.</p>
+
+
+<p class="cont">Kontakti</p>
+<p class="cont2"><a href="kontakti.html" target="_blank" class="bottomselect">E-pasts</a><br><a href="https://twitter.com/notouthere?lang=en" target="_blank" class="bottomselect">Twitter</a></p>
+
+<p class="socialize">Sociālās vietnes</p>
+<p class="socialize2"><a href="https://www.facebook.com/mogilnijs.aleksis" target="_blank" class="bottomselect">Facebook</a><br><a href="https://twitter.com/notouthere?lang=en" target="_blank" class="bottomselect">Twitter</a><br><a href="https://www.instagram.com/ts_aleksis/" target="_blank" class="bottomselect">Instagram<a/></p>
+
+<p class="section">Sadaļas</p>
+<p class="section2"><a href="index.html" target="_blank" class="bottomselect">Sākums</a><br><a class="bottomselect" href="materials.html" target="_blank">Materiāli</a><br><a class="bottomselect" href="riki.html" target="_blank">Rīki</a></p>
+
+
+<p class="laiks">Laiks:</p>
+<div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    <script  src="myscripts.js"></script>
+
+</body>
+</html>
